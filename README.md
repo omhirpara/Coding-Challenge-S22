@@ -1,3 +1,18 @@
+# Updated README file
+
+Libraries used: numpy, pandas, scikit-learn, tensorflow, matplotlib
+
+Explanation: 
+First the dataset was converted into numerical data, or rather each letter was given an "ID". Because the target variable is the class (whether the mushroom is edible or poisonous), it was removed from the data set. Next, all the non-numerical data (basically the entire data set) was turned into numerical data. Next, the data was split into training and testing data with a 70-30 split. 70% was reserved for training and 30% was reserved for testing. After splitting the data set, it was standardized using the scikit-learn library. Then the model was trained for 100 epochs while also recording accuracy, precision, and recall. the metrics were then graphed to visualize how loss, accuracy, precision, and recall fluctuated during the training cycle. Finally, using the prediction, the test data was given a 1 if the mushroom was edible or 0 if the mushroom was poisonous. 
+
+Resources used:
+Code for the entire algorithm except converting the dataset into numerical form was used from this video: https://www.youtube.com/watch?v=r3aZBohotF8&t=232s
+Code for converting the dataset into numerical form was used from this video: https://www.youtube.com/watch?v=j6jstahQp2A
+
+
+Note: This is the first time I have attempted to solve a machine learning problem. Therefore, I am not sure if the approach I used to solve the problem is valid, which means the solution is inaccurate. Moreover, I did not know how to properly convert the letters in the dataset into a numerical form, so I assigned them "IDs" based on the second video noted above.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ACM Research Coding Challenge (Spring 2022)
 
 ## [](https://github.com/ACM-Research/-DRAFT-Coding-Challenge-S22#no-collaboration-policy)No Collaboration Policy
